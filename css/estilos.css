@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-image: url('../imagenes/fondo.png');
+    padding: 20px;
+}
+
+/* Cabecera */
+h1 {
+    color: #f44336;
+    text-align: center;
+    border: 4px dashed #f44336;
+    background-color: white;
+    padding: 5px;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: 2px solid #f44336;
+}
+
+/* Artículos */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Artículos pares */
+article:nth-child(even) {
+    text-align: right;
+}
+
+/* Estilos para títulos de artículos */
+article h2 {
+    padding: 5px;
+    color: white;
+}
+
+/* Títulos de artículos impares */
+article:nth-child(odd) h2 {
+    background-color: #f44336;
+}
+
+/* Títulos de artículos pares */
+article:nth-child(even) h2 {
+    background-color: #ffc107;
+}
+
+/* Párrafos */
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Menú lateral */
+aside ul {
+    list-style-type: square;
+    font-style: italic;
+}
+
+/* Primer anuncio */
+aside ul li:first-child {
+    font-size: 24px;
+    color: blue;
+}
+
+/* Segundo anuncio */
+aside ul li:nth-child(2) {
+    font-size: 20px;
+    color: red;
+}
+
+/* Tercer anuncio */
+aside ul li:nth-child(3) {
+    color: green;
+}
+
+/* Pie de página */
+footer h1 {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
